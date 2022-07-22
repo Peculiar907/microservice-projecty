@@ -11,7 +11,7 @@ dockerpath=peculiar907/flaskapi
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login
+docker login -u peculiar907
 docker tag flaskapi $dockerpath
 
 # Step 3:
